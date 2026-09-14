@@ -1,14 +1,126 @@
-\documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
 
-\title{CPS5390_proposal}
-\author{Yiling Ma}
-\date{September 2026}
+% ============================================================
+% Team comment commands — usage: \yiling{your comment here}
+% Each renders as [Name: comment] in that member's color.
+% ============================================================
+\newcommand{\yiling}[1]{\textcolor{red}{[Yiling: #1]}}
+\newcommand{\vincent}[1]{\textcolor{blue}{[Vincent: #1]}}
+\newcommand{\haoran}[1]{\textcolor{teal}{[Haoran: #1]}}
+\newcommand{\jenny}[1]{\textcolor{violet}{[Jenny: #1]}}
+\newcommand{\haojun}[1]{\textcolor{orange}{[Haojun: #1]}}
+
+\title{Project Proposal: [Project Name]}
+\author{[Team Name]}
+\date{CPSC 4390/5390 --- Fall 2026}
 
 \begin{document}
-
 \maketitle
 
-\section{Introduction}
+% \yiling{example comment -- delete once everyone knows how this works}
+
+\section{Team}
+
+\textbf{Project / Team Name:} [TBD]
+
+\textbf{Team Members:}
+\begin{itemize}[nosep]
+    \item Yiling --- [role / year]
+    \item Vincent --- [role / year]
+    \item Haoran --- [role / year]
+    \item Jenny --- [role / year]
+    \item Haojun --- [role / year]
+\end{itemize}
+
+\textbf{Point of contact with instructors:} [Name]
+
+\section{Problem Statement}
+% Describe what problem the system solves and why it matters / is exciting.
+[...]
+
+\section{Target Audience}
+% Who will use this system? Be specific (e.g., not "students" but "X students who do Y").
+[...]
+
+\section{System Overview \& Expected Features}
+% High-level description of what the system does, then a bullet list of features.
+[...]
+
+\subsection{Feature List}
+\begin{itemize}
+    \item [Feature 1]
+    \item [Feature 2]
+    \item [Feature 3]
+\end{itemize}
+
+\section{Minimum Viable Product (MVP)}
+% Which subset of the features above is the MVP -- the smallest useful version.
+[...]
+
+\section{Scope Justification}
+% Argue the project is neither too easy nor too ambitious.
+% Prioritize features so lower-priority ones can be dropped if time runs short.
+% If the project is ambitious, sketch the major tasks so scope is credible.
+[...]
+
+\section{Technology Stack}
+% Languages, frameworks, tools -- and WHY each was chosen.
+\begin{itemize}
+    \item \textbf{Language(s):} [...]
+    \item \textbf{Framework(s):} [...]
+    \item \textbf{Tools} (CI/CD, deployment, testing, etc.): [...]
+\end{itemize}
+
+\section{Team Background}
+% For each member: languages + expertise level, largest solo project, largest team project (+ team size).
+
+\subsection{Yiling}
+\begin{itemize}[nosep]
+    \item Languages / expertise: [...]
+    \item Largest individual project: [...]
+    \item Largest team project (team size): [...]
+\end{itemize}
+
+\subsection{Vincent}
+\begin{itemize}[nosep]
+    \item Languages / expertise: [...]
+    \item Largest individual project: [...]
+    \item Largest team project (team size): [...]
+\end{itemize}
+
+\subsection{Haoran}
+\begin{itemize}[nosep]
+    \item Languages / expertise: [...]
+    \item Largest individual project: [...]
+    \item Largest team project (team size): [...]
+\end{itemize}
+
+\subsection{Jenny}
+\begin{itemize}[nosep]
+    \item Languages / expertise: [...]
+    \item Largest individual project: [...]
+    \item Largest team project (team size): [...]
+\end{itemize}
+
+\subsection{Haojun}
+\begin{itemize}[nosep]
+    \item Languages / expertise: [...]
+    \item Largest individual project: [...]
+    \item Largest team project (team size): [...]
+\end{itemize}
+
+\section{AI-Assisted Coding Policy}
+% Specify to what extent the team plans to use generative AI, consistent with course policy:
+% - AI only for work members could have done themselves given time/references
+% - AI-generated/substantially-AI-designed code must be flagged in PR descriptions,
+%   with source comments on non-trivial blocks
+% - Team agrees on a common level of AI usage
+% - Every PR requires review/approval from a member who understands the change and its source
+[...]
 
 \end{document}
